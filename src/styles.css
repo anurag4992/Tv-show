@@ -41,3 +41,77 @@
 .text {
     font-family: 'Fredoka', sans-serif;
 }
+
+.footer {
+    height: 5vw;
+    text-align: center;
+    color: #85F4FF;
+    background-color: #42C2FF;
+    position: relative;
+    bottom: 0;
+    font-family: 'Hubballi', cursive;
+    padding: .5vw 0 0;
+}
+
+.h4Footer {
+    font-size: 1.4vw;
+}
+
+.pFooter {
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+.topic {
+    margin: 2vw 0;
+    width: auto;
+    position: relative;
+}
+
+.right {
+    width: 10%;
+    position: absolute;
+    top: 10vw;
+    padding: .5vw;
+    left: 8.5vw;
+}
+
+.right::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.home-btn {
+    height: 2.5vw;
+    font-size: 1vw;
+    width: 5vw;
+    position: absolute;
+    right: 8.5vw;
+    top: 10vw;
+}
+
+.summary-body {
+    margin:2vw 5vw ;
+    width: 90%;
+    font-family: 'Hubballi', cursive;;
+}
+
+.summaryText {
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+.summary {
+    margin: 0 0 1vw;
+}
+
+.img {
+    width: 60%;
+    height: auto;
+}
+
+.imgForm {
+    display:grid;
+    grid-template-columns: auto auto;
+}
