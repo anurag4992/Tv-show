@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function Card(props) {
 
     let rating=props.data.rating.average;
+    let summ=props.data.summary;
     let comma=",";
     return <div className="card">
         
@@ -18,7 +19,12 @@ export default function Card(props) {
             <li className="list-group-item text">Rating : {rating==null ? "N/A" : rating}</li>
         </ul>
         
-        <Link className="btn btn-primary text" to="/Summary" state={props.id}>See Summary</Link>
+        <Link className="btn btn-primary text" to="/Summary" state={{
+            name: props.data.name,
+            summary: summ,
+            img: props.data.image.medium,
+            imdb: props.data.externals.imdb
+        }}>See Summary</Link>
     
     </div>;
 
