@@ -1,0 +1,43 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 3vw 0;
+    background-color: #42C2FF;
+    border: 2px solid #EFFFFD;
+    box-shadow: .2vw .2vw 1vw #85F4FF;
+    color: #EFFFFD;
+}
+
+.header-text {
+    font-size: 4vw;
+    font-family: 'Hubballi', cursive;
+}
+
+.header-text + p {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 1.8vw;
+    color: #5D8BF4;
+    font-weight: bold;
+}
+
+.card {
+    padding: 2vw;
+    margin: 2vw;
+    width: 20.5vw;
+    height: auto;
+    border: 1px solid #B8FFF9;
+    box-shadow: .7vw .7vw#B8FFF9;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.text {
+    font-family: 'Fredoka', sans-serif;
+}
