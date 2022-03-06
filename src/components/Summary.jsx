@@ -50,7 +50,7 @@ export default function Summary() {
       </a>
       <p className="summary">{state.summary}</p>
       <div className="imgForm">
-        <img src={state.img} className="card-img-top img" alt="Img" />
+        <img src={state.img} className="card-img-top imgSum" alt="Img" />
 
         <div className="forms">
 
