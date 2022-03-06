@@ -7,7 +7,7 @@ import { useLocation, Link, } from "react-router-dom";
 
 export default function Summary() {
 
-  const {obj, setObj}=useState({
+  const [obj, setObj]=useState({
     fname : "",
     lname: "",
     email: "",
@@ -26,8 +26,9 @@ export default function Summary() {
 
 
   function handleSubmit(e){
+    const arr=[obj.fname, obj.lname, obj.email, obj.list];
+    localStorage.setItem(obj.fname, arr);
     e.preventDefault();
-    localStorage.setItem(fname, obj);
   }
 
   const location = useLocation();
