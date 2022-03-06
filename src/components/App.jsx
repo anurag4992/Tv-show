@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Header from "./Header";
 import Card from "./Card";
+import Footer from "./Footer";
 import "../styles.css";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
                 </div>;
             })}
         </div>
+        <Footer />
     </div>;
 
 
